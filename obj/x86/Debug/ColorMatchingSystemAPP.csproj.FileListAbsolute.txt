@@ -1,0 +1,15 @@
+\\cci-server\Users\riley shannon\Desktop\CMS\bin\Debug\ColorMatchingSystemAPP.exe.config
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe.config
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.primaryForm.resources
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.Properties.Resources.resources
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.csproj.GenerateResource.Cache
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.exe
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.pdb
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\Resources\Logos\CCI.png
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe.manifest
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.application
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.pdb
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.exe.manifest
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.application
