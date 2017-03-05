@@ -1,0 +1,43 @@
+\\cci-server\Users\riley shannon\Desktop\CMS\bin\Debug\ColorMatchingSystemAPP.exe.config
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe.config
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.primaryForm.resources
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.Properties.Resources.resources
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.csproj.GenerateResource.Cache
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.exe
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.pdb
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\Resources\Logos\CCI.png
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe.manifest
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.application
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.exe
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\bin\Debug\ColorMatchingSystemAPP.pdb
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.exe.manifest
+\\cci-server\Users\riley shannon\Desktop\CMS - Copy\obj\x86\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\ColorMatchingSystemAPP.exe.config
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\Resources\Logos\CCI.png
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-master\bin\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.primaryForm.resources
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.Properties.Resources.resources
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.csproj.GenerateResource.Cache
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-master\obj\x86\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\Resources\Logos\CCI.png
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\ColorMatchingSystemAPP.exe.config
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\bin\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.primaryForm.resources
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.Properties.Resources.resources
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.csproj.GenerateResource.Cache
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
