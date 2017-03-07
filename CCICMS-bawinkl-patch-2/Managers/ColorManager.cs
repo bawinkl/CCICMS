@@ -335,7 +335,7 @@ namespace ColorMatchingSystem.Models
 
                         if (type != "Ready For Use" && type != "T-Charge")
                         {
-                            if (type.Contains("CMS Pigment") && type.Contains('5'))
+                            if (type.Contains("Discharge") && type.Contains('5'))
                             {
                                 mixingBaseRatio += (thisInkRatio * .85m);
                                 thisInkRatio = thisInkRatio * .15m;
@@ -469,7 +469,7 @@ namespace ColorMatchingSystem.Models
                 colorTypes.Add("Water Base", "CMS Pigment");
 
             if (!colorTypes.Keys.Contains("CMS Pigment (+5%)"))
-                colorTypes.Add("Discharge", "CMS Pigment (+5%)");
+                colorTypes.Add("Discharge5", "CMS Pigment (+5%)");
 
             if (!colorTypes.Keys.Contains("Boost"))
                 colorTypes.Add("Water Base2", "Boost");

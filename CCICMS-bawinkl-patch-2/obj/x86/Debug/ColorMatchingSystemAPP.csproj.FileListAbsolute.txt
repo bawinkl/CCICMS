@@ -41,3 +41,17 @@ C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemA
 C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.exe
 C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.pdb
 C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-1\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\ColorMatchingSystemAPP.exe.config
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\Resources\Logos\CCI.png
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\ColorMatchingSystemAPP.application
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\ColorMatchingSystemAPP.exe
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\bin\Debug\ColorMatchingSystemAPP.pdb
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.csprojResolveAssemblyReference.cache
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.primaryForm.resources
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.Properties.Resources.resources
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.csproj.GenerateResource.Cache
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.exe.manifest
+C:\Users\bawin\Desktop\CCICMS-bawinkl-patch-2\obj\x86\Debug\ColorMatchingSystemAPP.application

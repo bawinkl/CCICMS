@@ -299,9 +299,9 @@ namespace ColorMatchingSystemAPP
                 }
 
                 dischargeDataGrid.Refresh();
-      
 
-            mixingHeader += amount.ToString() + " " + (amount <= 1 ? UOMDropDown.SelectedValue.ToString().Substring(0, UOMDropDown.SelectedValue.ToString().Length - 1) : UOMDropDown.SelectedValue.ToString()) + " of " + (colorTypeDropDown.SelectedValue.ToString() == "Ready For Use" ? "RFU" : colorTypeDropDown.SelectedValue.ToString()) + " Ink " + colorCode;
+
+            mixingHeader += amount.ToString() + " " + (amount <= 1 ? UOMDropDown.SelectedValue.ToString().Substring(0, UOMDropDown.SelectedValue.ToString().Length - 1) : UOMDropDown.SelectedValue.ToString()) + " of " + colorTypeDropDown.GetItemText(colorTypeDropDown.SelectedItem) + " Ink " + colorCode;
             mixingHeaderLabel.Text = mixingHeader;
 
             formulaDataGrid.DefaultCellStyle.Format = "n2";
