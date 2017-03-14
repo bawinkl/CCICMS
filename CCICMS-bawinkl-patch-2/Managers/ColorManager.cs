@@ -209,8 +209,22 @@ namespace ColorMatchingSystem.Models
         public List<Color> ListColors(string type, string colorCode, decimal requestAmount, string unitOfMeasurement)
         {
             bool isRFU = (type == "Ready For Use" || type == "T-Charge");
-
             decimal requestAmountMultiplier = 1.0M;
+            string colorTypeReplacement = string.Empty;
+
+            switch (type)
+            {
+                case "Water Base2":
+                    colorTypeReplacement = "Boost";
+                    break;
+                case "Water Base":
+                case "Discharge5":
+                    colorTypeReplacement = "CMS";
+                    break;
+                case "Ready For Use":
+                    colorTypeReplacement = "T-Charge";
+                    break;
+            }
 
             if (!String.IsNullOrEmpty(unitOfMeasurement))
             {
@@ -324,9 +338,10 @@ namespace ColorMatchingSystem.Models
                     try
                     {
                         string thisColorType = colorTypes[color.Descendants("type").FirstOrDefault().Value];
+
                         string thisColorCode = color.Descendants("colorcode").FirstOrDefault().Value;
                         string thisIdString = color.Descendants("id").FirstOrDefault().Value;
-                        string thisColorName = color.Descendants("name").FirstOrDefault().Value;
+                        string thisColorName = color.Descendants("name").FirstOrDefault().Value.Replace("CMS", colorTypeReplacement);
                         int thisId = int.Parse(thisIdString);
                         string thisInkRatioString = color.Descendants("inkratio").FirstOrDefault().Value;
                         decimal thisInkRatio = decimal.Parse(thisInkRatioString);
