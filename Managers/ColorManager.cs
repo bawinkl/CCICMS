@@ -208,7 +208,8 @@ namespace ColorMatchingSystem.Models
 
         public List<Color> ListColors(string type, string colorCode, decimal requestAmount, string unitOfMeasurement)
         {
-            bool isRFU = type == "Ready For Use";
+            bool isRFU = (type == "Ready For Use" || type == "T-Charge");
+
             decimal requestAmountMultiplier = 1.0M;
 
             if (!String.IsNullOrEmpty(unitOfMeasurement))
@@ -245,7 +246,7 @@ namespace ColorMatchingSystem.Models
                                           .Where(d => d.Descendants("colorcode").FirstOrDefault() != null &&
                                                       d.Descendants("colorcode").FirstOrDefault().Value == colorCode &&
                                                       d.Descendants("type").FirstOrDefault() != null &&
-                                                      d.Descendants("type").FirstOrDefault().Value == (type == "Ready For Use" || type.Contains("Discharge") ? "Water Base" : type))
+                                                      d.Descendants("type").FirstOrDefault().Value == (type == "Ready For Use" || type == "T-Charge" || type.Contains("Discharge") ? "Water Base" : type))
                                           .ToList();
 
             if ((baseColorList == null || baseColorList.FirstOrDefault() == null) && type != "Water Base")
@@ -331,7 +332,7 @@ namespace ColorMatchingSystem.Models
                         string thisURL = color.Descendants("url") != null && color.Descendants("url").FirstOrDefault() != null ? color.Descendants("url").FirstOrDefault().Value : string.Empty;
                         
 
-                        if (type != "Ready For Use")
+                        if (type != "Ready For Use" && type != "T-Charge")
                         {
                             if (type.Contains("Discharge") && type.Contains('5'))
                             {
@@ -349,7 +350,7 @@ namespace ColorMatchingSystem.Models
                             if (thisColorName.Contains("021"))
                                 thisColorName = thisColorName.Replace("021", "");
 
-                            thisColorType = "Ready For Use";
+                            thisColorType = type;
                         }
 
                         if (colorList != null && colorList.FirstOrDefault() != null)
@@ -379,7 +380,7 @@ namespace ColorMatchingSystem.Models
                     }
                 }
 
-                if (type != "Custom" && type != "Ready For Use")
+                if (type != "Custom" && (type != "Ready For Use" && type != "T-Charge"))
                 {
                     Color baseColor = new Color();
                     baseColor.id = -1;
@@ -406,9 +407,9 @@ namespace ColorMatchingSystem.Models
         {
             List<String> colorCodes = new List<String>();
             XDocument data = LoadData();
-            List<XElement> codeList = data.Descendants("colorcode").Distinct().Where(s => String.IsNullOrEmpty(colorTypes) || s.Parent.Element("type").Value == (colorTypes == "Ready For Use" || colorTypes.Contains("Discharge") ? "Water Base" : colorTypes)).ToList();
+            List<XElement> codeList = data.Descendants("colorcode").Distinct().Where(s => String.IsNullOrEmpty(colorTypes) || s.Parent.Element("type").Value == (colorTypes == "Ready For Use" || colorTypes == "T-Charge" || colorTypes.Contains("Discharge") ? "Water Base" : colorTypes)).ToList();
 
-            if (colorTypes == "Ready For Use")
+            if (colorTypes == "Ready For Use" || colorTypes == "T-Charge")
                 codeList = codeList.Where(c => !c.Value.Contains("RFU")).ToList();
 
             foreach (XElement colorCode in codeList)
@@ -468,6 +469,9 @@ namespace ColorMatchingSystem.Models
 
             if (!colorTypes.Contains("Ready For Use"))
                 colorTypes.Add("Ready For Use");
+
+            if (!colorTypes.Contains("T-Charge"))
+                colorTypes.Add("T-Charge");
 
             return colorTypes.OrderByDescending(c => c.Contains("Water Base") ? 1 : 0).ThenByDescending(c => c.Contains("Discharge") ? 1 : 0).ThenByDescending(c => c.Contains("Ready") ? 1 : 0).ToList();
         }
